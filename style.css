@@ -1,0 +1,91 @@
+.whoami {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+.allboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.whitebox {
+  background-color: #635985;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 40px;
+  width: 850px;
+  box-shadow: 3px 3px 1px #917FB3;
+}
+
+body {
+  color: white;
+  background-color: #18122B;
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  border: solid #0D4C92
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  text-align: center;
+  line-height: 3;
+  color: white;
+  border: solid orange;
+}
+
+ul:last-child a {
+  margin-right: 250px;
+}
+
+a:link,
+a:visited,
+a:focus {
+  background:#213555;
+}
+
+a:hover {
+  background: #9E4784;
+}
+
+a:active {
+  background: black;
+  color: white;
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 1px;
+}
+h2 {
+  color: whitesmoke;
+}
