@@ -7,10 +7,9 @@
 
 .aboutme {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
-  line-height: 40px;
+  line-height: 40px
 }
 
 .allboxes {
@@ -43,28 +42,15 @@ img {
   border: solid #0D4C92
 }
 
-ul {
-  padding: 0;
-  width: 100%;
-}
-
-li {
-  display: inline;
-}
-
 a {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  width: 19.5%;
+  width: 23%;
   text-align: center;
   line-height: 3;
   color: white;
   border: solid orange;
-}
-
-ul:last-child a {
-  margin-right: 250px;
 }
 
 a:link,
