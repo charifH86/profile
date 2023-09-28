@@ -89,3 +89,17 @@ h1 {
 h2 {
   color: whitesmoke;
 }
+
+@media (min-width: 700px) {
+  .allboxes {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .allboxes {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
